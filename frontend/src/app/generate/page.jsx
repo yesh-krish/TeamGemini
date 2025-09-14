@@ -2,12 +2,12 @@
 
 import { useState } from "react"
 import { ArrowLeft, Brain, Settings, Zap } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card } from "@/components/ui/card"
-import { Slider } from "@/components/ui/slider"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Label } from "@/components/ui/label"
-import { QuizGenerator } from "@/components/quiz-generator"
+import { Button } from "src/components/ui/button"
+import { Card } from "src/components/ui/card"
+import { Slider } from "src/components/ui/slider"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "src/components/ui/select"
+import { Label } from "recharts"
+import { QuizGenerator } from "src/quiz-generator"
 import Link from "next/link"
 
 export default function GeneratePage() {
